@@ -1,4 +1,4 @@
-import http from 'http';
+/*import http from 'http';
 
 const PORT = 3000;
 
@@ -15,8 +15,9 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
 });
+*/
 
-/*
+// step 2
 const server = http.createServer((req, res) => {
     const url = req.url;
     const method = req.method;
@@ -57,4 +58,5 @@ async function serveFile(filePath,contentType, res) {
         res.end('<h1>404 Not Found</h1>');
     }
 }
-*/
+
+
